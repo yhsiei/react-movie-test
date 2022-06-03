@@ -12,6 +12,15 @@ function Movie({id, coverImage, title, summary, genres}){
             {genres.map((genre,index)=>{
                 return <li key={index}>{genre}</li>
             })}
+
+
+
+
+
+
+
+
+
         </ul>
     </div>
 }
